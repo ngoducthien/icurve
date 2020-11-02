@@ -1,7 +1,8 @@
 # icurve
-A program for Interpolating curve. **icurve** is designed to support multiple columns in Data File.
+A program for Interpolating curve. **icurve** is designed to support interpolation for multiple columns in Data File.
 
 ![Si_Palik_UV_Vis](examples/ex2/sample_interp_plot.png)
+
 <p align="center">Dielectric functions of Silicon in UV to Visible region [Ref: E. D. Palik, Handbook of Optical Constants in Solids (Academic Press, 1997].</p>
 
 # Prerequisites
