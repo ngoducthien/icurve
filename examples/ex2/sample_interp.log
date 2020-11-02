@@ -1,0 +1,15 @@
+Namespace(filename=['sample.txt'], kind='linear', npoints=[101], plot=['y'], skiprows=[2], xmax=[0.5], xmin=[0.2])
+
+            Filename : sample.txt
+      x0_min, x0_max : 0.20000000, 0.50000000
+              Output : sample_interp.txt
+            Log file : sample_interp.log
+   Number of columns : 3
+            Skip row : 2
+               x_min : 0.2
+               x_max : 0.5
+Number of the points : 101
+Interpolation method : linear
+         Plot figure : y
+      Execution time : 2020-11-02 18:00:12.172208
+             Version : 1.0 (2020-11-01)

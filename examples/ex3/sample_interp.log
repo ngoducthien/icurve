@@ -1,0 +1,15 @@
+Namespace(filename=['sample.dat'], kind='linear', npoints=[101], plot=['y'], skiprows=[1], xmax=[6.0], xmin=[3.0])
+
+            Filename : sample.dat
+      x0_min, x0_max : 3.00000000, 6.00000000
+              Output : sample_interp.dat
+            Log file : sample_interp.log
+   Number of columns : 4
+            Skip row : 1
+               x_min : 3.0
+               x_max : 6.0
+Number of the points : 101
+Interpolation method : linear
+         Plot figure : y
+      Execution time : 2020-11-02 18:00:13.572292
+             Version : 1.0 (2020-11-01)
