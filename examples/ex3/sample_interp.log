@@ -1,4 +1,4 @@
-Namespace(filename=['sample.dat'], kind='linear', npoints=[101], plot=['y'], skiprows=[1], xmax=[6.0], xmin=[3.0])
+Namespace(filename=['sample.dat'], kind=['linear'], npoints=[101], plot=['y'], skiprows=[1], xmax=[6.0], xmin=[3.0])
 
             Filename : sample.dat
       x0_min, x0_max : 3.00000000, 6.00000000
@@ -11,5 +11,5 @@ Namespace(filename=['sample.dat'], kind='linear', npoints=[101], plot=['y'], ski
 Number of the points : 101
 Interpolation method : linear
          Plot figure : y
-      Execution time : 2020-11-02 18:00:13.572292
+      Execution time : 2020-11-04 15:07:05.364326
              Version : 1.0 (2020-11-01)

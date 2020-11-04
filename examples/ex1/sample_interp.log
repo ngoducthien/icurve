@@ -1,4 +1,4 @@
-Namespace(filename=['sample.CSV'], kind='linear', npoints=[101], plot=['y'], skiprows=[0], xmax=[1002.0], xmin=[702.0])
+Namespace(filename=['sample.CSV'], kind=['linear'], npoints=[101], plot=['y'], skiprows=[0], xmax=[1002.0], xmin=[702.0])
 
             Filename : sample.CSV
       x0_min, x0_max : 701.97340000, 1002.81900000
@@ -11,5 +11,5 @@ Namespace(filename=['sample.CSV'], kind='linear', npoints=[101], plot=['y'], ski
 Number of the points : 101
 Interpolation method : linear
          Plot figure : y
-      Execution time : 2020-11-02 18:00:10.599927
+      Execution time : 2020-11-04 15:07:02.575311
              Version : 1.0 (2020-11-01)
