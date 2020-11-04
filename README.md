@@ -1,5 +1,5 @@
 # icurve
-A program for Interpolating curve. **icurve** is designed to interpolate across multiple columns in Data File. This script support both CSV and Delimited Flat Files (TXT, DAT).
+A program for Interpolating curve. **icurve** is designed to interpolate across multiple columns in Data File. This script supports both CSV and Delimited Flat Files (TXT, DAT).
 
 ![Si_Palik_UV_Vis](examples/ex2/sample_interp_plot.png)
 
