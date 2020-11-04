@@ -29,7 +29,7 @@ parser.add_argument(
 
 parser.add_argument(
     '-xmin', '--xmin',
-    help="Minimum value for interpolation.",
+    help="Minimum value of x-axis for interpolation.",
     dest='xmin',
     type=float,
     nargs=1,
@@ -38,7 +38,7 @@ parser.add_argument(
 
 parser.add_argument(
     '-xmax', '--xmax',
-    help="Maximum value for interpolation.",
+    help="Maximum value of x-axis for interpolation.",
     dest='xmax',
     type=float,
     nargs=1,
@@ -61,9 +61,9 @@ parser.add_argument(
                    quadratic, cubic, previous, ‘next.",
     dest='kind',
     type=str,
-    nargs='*',
+    nargs=1,
     required=False,
-    default='linear'
+    default=['linear']
 )
 
 parser.add_argument(
@@ -75,7 +75,7 @@ parser.add_argument(
     type=str,
     nargs=1,
     required=False,
-    default='No'
+    default=['No']
 )
 
 args = parser.parse_args()
@@ -87,12 +87,6 @@ xmax = args.xmax[0]
 npoints = args.npoints[0]
 kind = args.kind[0]
 plot = args.plot[0]
-
-# Return the interpolation method in string
-if len(kind) == 1:
-    kind = args.kind
-else:
-    kind = args.kind[0]
 
 # Extracting extension from filename
 file, file_extension = os.path.splitext(filename)
